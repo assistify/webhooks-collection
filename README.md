@@ -34,5 +34,5 @@ early and reduce the risk of reputation impact.
 - [Giphy](https://rocket.chat/docs/administrator-guides/integrations/giphy/)
 
 ## Other
-- Simple polls
+- [Simple polls](Poll.md)
 - Shared channel with other Assistify installation
