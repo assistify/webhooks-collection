@@ -13,7 +13,7 @@ in CI/CD pipelines or monitoring services, but also social media like Twitter, w
 early and reduce the risk of reputation impact.
 
 ## Source repositories
-- [GitLab](GitLab)
+- [GitLab](GitLab.md)
 - [GitHub](https://rocket.chat/docs/administrator-guides/integrations/github/)
 
 ## Build systems / Pipelines
