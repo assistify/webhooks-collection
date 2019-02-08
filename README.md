@@ -28,7 +28,7 @@ early and reduce the risk of reputation impact.
 - Elasticsearch Free space alert
 
 ## Social Media
-- Twitter
+- [Twitter](Twitter.md)
 
 ## Fun
 - [Giphy](https://rocket.chat/docs/administrator-guides/integrations/giphy/)
