@@ -9,7 +9,7 @@ Integrations of GitLab in Assistify helps getting information about new commits 
 pipeline. Therefore, they work by GitLib calling an incoming webhook in Assistify which prints out a message in one of
 the channels.
 
-# Setting up the integration
+## Setting up the integration
 
 There is a documentation how to setup such a webhook in the
 [Rocket.Chat documentation](https://rocket.chat/docs/administrator-guides/integrations/gitlab/).
