@@ -12,7 +12,8 @@ via webhooks. What we need to do is:
 Creating channels and webhooks is really straight forward. The incoming webhook needs a name and requires to
 specify the receiving channel name. As the script, you can use something like that:
 
-    class Script {
+```JavaScript
+class Script {
       process_incoming_request({ request }) {
         return !request.content.bot && request.content.text && {
           content: {
@@ -21,6 +22,7 @@ specify the receiving channel name. As the script, you can use something like th
         }
       }
     }
+```
 
 The outgoing webhooks don't need a script. They should listen on new messages in their channel and send them to the
 corresponding incoming webhook url.
