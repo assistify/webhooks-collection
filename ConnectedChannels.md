@@ -14,14 +14,14 @@ specify the receiving channel name. As the script, you can use something like th
 
 ```JavaScript
 class Script {
-      process_incoming_request({ request }) {
-        return !request.content.bot && request.content.text && {
-          content: {
-            text: "*@" + request.content.user_name + '*\n' + request.content.text.replace(/^\[\s\]\(http.*?\)\s*/, '')
-          }
-        }
+  process_incoming_request({ request }) {
+    return !request.content.bot && request.content.text && {
+      content: {
+        text: "*@" + request.content.user_name + '*\n' + request.content.text.replace(/^\[\s\]\(http.*?\)\s*/, '')
       }
     }
+  }
+}
 ```
 
 The outgoing webhooks don't need a script. They should listen on new messages in their channel and send them to the
