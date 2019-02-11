@@ -77,7 +77,7 @@ class Script {
               color: '#FF0000',
               author_name: 'Instana IAT Server',
               author_link: 'https://your-instana-server.url/#/events?timeline.to&timeline.ws=3600000&eventId=' + request.content.issue.id + '&timeline.fm',
-              author_icon',
+              author_icon,
               title: '' + request.content.issue.type + ' - ' + request.content.issue.text,
               title_link: request.content.issue.link,
               text: '' + request.content.issue.description,
