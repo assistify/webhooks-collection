@@ -23,7 +23,7 @@ early and reduce the risk of reputation impact.
 - [Jira](https://rocket.chat/docs/administrator-guides/integrations/jira/)
 
 ## Monitoring
-- Instana
+- [Instana](Instana.md)
 - [Prometheus](https://github.com/pavel-kazhavets/AlertmanagerRocketChat)
 - Elasticsearch Free space alert
 
