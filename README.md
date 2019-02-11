@@ -35,4 +35,4 @@ early and reduce the risk of reputation impact.
 
 ## Other
 - [Simple polls](Poll.md)
-- Shared channel with other Assistify installation
+- [Connect channels between Assistify installations](ConnectedChannels.md)
